@@ -1,0 +1,28 @@
+# AniMatch — Project Root .gitignore
+
+# Secrets — NEVER commit these
+backend/.env
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.egg-info/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Docker
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
