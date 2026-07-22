@@ -77,9 +77,6 @@ app.include_router(random_router, prefix="/api", tags=["recommendations"])
 # ---------------------------------------------------------------------------
 
 
-@app.get("/", tags=["health"])
-async def root():
-    return {"status": "ok", "app": "AniMatch API", "version": "1.0.0"}
 
 
 @app.get("/health", tags=["health"])
